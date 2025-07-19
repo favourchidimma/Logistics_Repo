@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath=/opt/render/project/src logistics.wsgi
+web: gunicorn logistics.wsgi --bind 0.0.0.0:$PORT

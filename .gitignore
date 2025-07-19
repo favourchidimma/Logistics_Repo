@@ -90,3 +90,8 @@ local_settings.py
 db.sqlite3
 venv
 *.json
+
+/menv
+.menv
+menv/
+.menv/
