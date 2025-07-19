@@ -1,1 +1,1 @@
-web: gunicorn logistics.wsgi
+web: gunicorn --pythonpath=/opt/render/project/src logistics.wsgi
