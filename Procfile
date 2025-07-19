@@ -1,1 +1,1 @@
-web: echo "Current directory: $(pwd)" && ls -la && gunicorn logistics.wsgi --bind 0.0.0.0:$PORT
+web: gunicorn projectapp.wsgi
