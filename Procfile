@@ -1,1 +1,1 @@
-web: echo "Python path: $(python -c 'import sys; print(sys.path)')" && gunicorn logistics.wsgi
+web: echo "Current directory: $(pwd)" && ls -la && gunicorn logistics.wsgi --bind 0.0.0.0:$PORT
