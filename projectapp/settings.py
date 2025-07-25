@@ -21,7 +21,7 @@ DEBUG = True  # Set to False for production
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
-# Application definition
+# Applicajktion definition
 INSTALLED_APPS = [
     'accounts',
     'django.contrib.admin',
